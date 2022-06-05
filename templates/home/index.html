@@ -1,1 +1,16 @@
 {% extends 'base/base.html' %}
+
+{% block content %}
+{% include 'home/carousel.html' %}
+    <div class="container mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">{% include 'product/product.html' %}</div>
+            <div class="col-sm-3">{% include 'product/product.html' %}</div>
+            <div class="col-sm-3">{% include 'product/product.html' %}</div>
+            <div class="col-sm-3">{% include 'product/product.html' %}</div>
+        </div>
+    </div>
+    </div>
+
+{% endblock %}
