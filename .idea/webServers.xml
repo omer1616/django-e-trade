@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="4b5845d3-6b2a-4e2c-ae6a-48cc1eae754f" name="COMMON" url="http://localhost">
+        <fileTransfer accessType="SFTP" sshConfigId="2f511082-0b5e-48e3-b0bc-a9295fe476a8" sshConfig="COMMON">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="8c53fb82-ad91-4b73-85e3-12b4a2601419" name="ccli" url="">
+        <fileTransfer rootFolder="/home/kullanici1/CCApp" accessType="SFTP" host="93.89.73.104" port="22" sshConfigId="8ac974c2-1976-4f2f-bb5c-7407c3e1453e" sshConfig="kullanici1@93.89.73.104:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
